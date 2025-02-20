@@ -108,8 +108,8 @@ nav {
 }
 
 .content img {
-    width: 40%;
-    max-width: 400px;
+    width: 400%;
+    max-width: 40px;
     height: auto;
     margin-top: 20px;
 }
