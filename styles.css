@@ -23,15 +23,16 @@ nav {
 }
 
 .twitter-icon {
-    color: #8B4513; /* Twitter blue */
-    font-size: 15px;
-    padding-left: 10px;
-    text-decoration: none;
+    width: 20px; /* Set desired width */
+    height: 20px; /* Set desired height */
+    margin-right: 5px; /* Space between icon and text */
+    transition: opacity 0.3s; /* Smooth transition effect */
 }
 
 .twitter-icon:hover {
-    opacity: 0.8;
+    opacity: 0.8; /* Fade effect on hover */
 }
+
 
 .menu {
     list-style: none;
