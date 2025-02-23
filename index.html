@@ -12,23 +12,29 @@
 <body>
 
 <header>
+   <header>
     <nav>
         <div class="menu-container">
-            <!-- Twitter icon with link -->
-            <a href="https://twitter.com" class="twitter-icon" target="_blank" aria-label="Twitter">
-                <i class="fab fa-twitter" style="font-size: 24px;"></i>
-            </a>
             <div class="menu-toggle" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
             </div>
             <ul class="menu">
+                <li class="close-menu" onclick="toggleMenu()">
+                    <i class="fas fa-times"></i>
+                </li>
                 <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="bulletin.html">Bulletin</a></li>
                 <li><a href="week.html">Week</a></li>
-                <li class="close-menu" onclick="toggleMenu()"><i class="fas fa-times"></i></li>
+                <li>
+                    <a href="https://twitter.com" class="twitter-icon" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter" style="font-size: 24px;"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
+</header>
+
 </header>
 
 <main>
