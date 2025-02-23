@@ -62,6 +62,7 @@ nav {
     font-size: 24px;
     color: white;
     cursor: pointer;
+    display: inline-block;
     padding-right: 15px;
 }
 
