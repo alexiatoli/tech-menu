@@ -22,10 +22,10 @@ nav {
     justify-content: space-between;
 }
 .home-icon {
-    width: 24px; /* Set desired width */
-    height: 24px; /* Set desired height */
-    margin-right: 10px; /* Space between icon and text */
-    vertical-align: middle; /* Align icon with text */
+    width: 20px; /* Set desired width */
+    height: 20px; /* Set desired height */
+    margin-right: 5px; /* Space between icon and text */
+    vertical-align: left; /* Align icon with text */
 }
 
 
